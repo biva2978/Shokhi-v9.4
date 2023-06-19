@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/contact.css">
+</head>
+
+<body>
+    <!-- top banner  -->
+
+    <div class="top-banner">
+        <div class="container">
+            <div class="small-bold-text banner-text">📣 New to shokhi! <a href="about.html">Read more →</a></div>
+        </div>
+    </div>
+
+    <!-- Navigation bar -->
+
+    <nav>
+        <div class="container main-nav flex">
+            <a href="#" class="company-logo">
+                <img src="Images/1.png" alt="company-logo">
+            </a>
+
+            <div class="nav-links">
+                <ul class="flex">
+                    <li><a href="home.php" class="hover-link">Home</a></li>
+                    <li><a href="articles.html" class="hover-link">Articles</a></li>
+                    <li><a href="period_tracker.html" class="hover-link">Period tracker</a></li>
+                    <li><a href="appointment.html" class="hover-link">Appointment</a></li>
+                    <li><a href="about.html" class="hover-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
